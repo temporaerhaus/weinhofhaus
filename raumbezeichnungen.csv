@@ -41,3 +41,7 @@ haus,stockwerk,raumnummer,bezeichnung,bezeichnung alt,bezeichnung alt/plan
 7/10,0,15,Bär,Büro,Datenerfassung/Datenkontrolle/Zentraleinheit
 7/10,0,16,Katze,Büro,
 7/10,0,17,Labor,Büro,
+9,0,1,Treppenhaus,,
+9,0,2,WC,,
+9,0,3,Salon,,
+9,0,4,Aquarium,Fuchsloch,
