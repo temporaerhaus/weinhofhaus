@@ -1,0 +1,43 @@
+haus,stockwerk,raumnummer,bezeichnung,bezeichnung alt,bezeichnung alt/plan
+7/10,U2,1,Treppenhaus,,
+7/10,U2,,Flur,,
+7/10,U2,,Archiv,,
+7/10,U2,,Elektrostation,,
+7/10,U2,,Hebeanlage,,
+7/10,U2,,Aufzug,,
+7/10,U2,,Schacht,,Transportschacht
+7/10,U2,,Heizung-Sanitär-Klimastation,,
+7/10,U1,1,Treppenhaus,,
+7/10,U1,2,Flur,Büro,Vorraum 1/Korridor
+7/10,U1,,Innenhof,Gartenhof,
+7/10,U1,13,Hausmeisterwerkstatt,Büro Hausmeister,
+7/10,U1,14,Serverraum,EDV Server,
+7/10,U1,3,S Lager,EDV Lager,Austräger
+7/10,U1,4,Schacht,,
+7/10,U1,5,Getränkelager,Lager,Putzraum
+7/10,U1,6,WC,,
+7/10,U1,7,Putzraum,PR,
+7/10,U1,8,WC,,
+7/10,U1,9,Putzraum,PR,Rollst. WC
+7/10,U1,10,Aufzug,,
+7/10,U1,,Schacht,,
+7/10,U1,11,Flur,Büro,Vorraum 2/Poststrasse
+7/10,U1,12,Tresor,Kundentresor,Marketing Werbelager/Postsortierung
+7/10,0,1,Empfang,,Warten
+7/10,0,2,Büro,Arbeitsvorbereitung,Lochkartenstelle
+7/10,0,3,Büro,Besprechung,Empfang
+7/10,0,4,Flur,,
+7/10,0,5,WC,,
+7/10,0,6,Putzraum,PR,
+7/10,0,7,WC,,
+7/10,0,8,Putzraum,PR,
+7/10,0,9,Aufzug,,
+7/10,0,,Schacht,,
+7/10,0,10,Treppenhaus,,
+7/10,0,11,Flur,Vorraum,
+7/10,0,12,Büro,,Scheckabrechnung
+7/10,0,13,Flur,Marketing,Scheckabrechnung
+7/10,0,14,Hase,Büro,Mikroverfilmung/Belegverteilung
+7/10,0,15,Bär,Büro,Datenerfassung/Datenkontrolle/Zentraleinheit
+7/10,0,16,Katze,Büro,
+7/10,0,17,Labor,Büro,
