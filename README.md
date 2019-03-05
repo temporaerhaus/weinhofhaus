@@ -7,5 +7,10 @@ Anfoderungen sind noch nicht ganz klar. Bisherige Annahmen:
 * ...
 * ???
 
-Vorraussetzung für so eine Skizze und ggf. eine erste grobe Kostenschätzungen ist ein **Überblick über's gesamte Haus** und welche Breiche von verschieden gearteten Organisationen genutzt werden könnten(!).
-Dieses Schema ist hier also auch zu finden (grober Entwurf auf unklarer Wissensbasis).
+Vorraussetzung für eine solche Skizze und ggf. eine erste grobe Kostenschätzungen ist ein **Überblick über's gesamte Haus** und welche Breiche von verschieden gearteten Organisationen genutzt werden könnten(!).
+Dieses [Schema](weinhofhaus-schema.pdf) ist hier also auch zu finden (grober Entwurf auf unklarer Wissensbasis).
+Zur Verortung des Komplexes gibt's auch einen [Überblick](weinhofhaus-ueberblick.pdf).
+
+In [Anforderungen-Netzwerk.md] finden sich die gewünschten Anforderungen; dazu gibt's [weinhofhaus-schema-netzwerk.pdf] zur Veranschaulichung.
+
+In [Allgemein.md] finden sich eine lose Sammlung möglicher Verbesserungen; diese Wünsche kamen in verschiedenen Gesprächen in der Vergangenheit auf.
