@@ -11,6 +11,6 @@ Vorraussetzung für eine solche Skizze und ggf. eine erste grobe Kostenschätzun
 Dieses [Schema](weinhofhaus-schema.pdf) ist hier also auch zu finden (grober Entwurf auf unklarer Wissensbasis).
 Zur Verortung des Komplexes gibt's auch einen [Überblick](weinhofhaus-ueberblick.pdf).
 
-In [Anforderungen-Netzwerk.md] finden sich die gewünschten Anforderungen; dazu gibt's [weinhofhaus-schema-netzwerk.pdf] zur Veranschaulichung.
+In (Anforderungen-Netzwerk.md) finden sich die gewünschten Anforderungeni für's Netzwerk; dazu gibt's (weinhofhaus-schema-netzwerk.pdf) zur Veranschaulichung.
 
-In [Allgemein.md] finden sich eine lose Sammlung möglicher Verbesserungen; diese Wünsche kamen in verschiedenen Gesprächen in der Vergangenheit auf.
+In (Allgemein.md) findet sich außerdem eine grobe Sammlung sonstiger Punkte zur Infrastruktur des Hauses. Diese Wünsche kamen in verschiedenen Gesprächen in der Vergangenheit auf.
