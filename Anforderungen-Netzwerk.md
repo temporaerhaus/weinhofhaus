@@ -1,5 +1,7 @@
+
 # Weinhofhaus: Konzept Netzwerk
 
+Status: grobe Skizze.
 
 Anlagen:
 * *weinhofhaus-schema-netzwerk.pdf* – Skizze für eine Soll-Netzwerkinfrastruktur im Haus.
@@ -9,25 +11,26 @@ Anlagen:
 
 
 
-## Konzept Netzwerk/IKT-Infrastruktur
+## Überblick
 
 ### Hausanschlüsse (Internetzugänge)
 
-* SWU kommt mit Glasfaser in #9 U1 an.
+* SWU Telenet kommt mit Glasfaser in #9 U1 an.
 * Telekom kommt mit 100 DA in #7/10 U1 an.
 * Gibt es weitere Anbieter und Positionen für Hausanschlüsse?
 
-→ Zentraler Raum ist in #7/10 U1 "Serverraum" = **RZ1**.
+→ Zentraler Raum ist in #7/10 U1 "Serverraum" **=: RZ1**.
 
 
 
 ### Netzwerk
 
-Von RZ1 aus auf jedes Stockwerk/Stockwerksteil jeden Hauses:
+Von RZ1 aus auf jedes Stockwerk/jeden Stockwerksteil in jedem Haus:
 * 6 Fasern LWL (9/125 µm, OS2).
+* Ggf. als Reserver weitere 6 Fasern LWL parallel dazu verlegen (s.u.).
 
-Vom Verteiler (DV) in jedem Stockwerk/Stockwerksteil:
-* Genügend Gigabit per Kupfer in die Räume verteilen (Cat6<sub>A</sub>).
+Vom Verteiler (DV, auch Netzwerkschrank) in jedem Stockwerk/Stockwerksteil:
+* Genügend Gigabit per Kupfer in die Räume verteilen (Cat6<sub>A</sub> bzw. Class E<sub>A</sub>).
 * S.u. für Tabelle zur Mengenschätzung nach möglichen Büroarbeitsplätzen.
 
 LWL-Backbone zwischen den Häusern, je 48+ Fasern (9/125 µm, OS2):
@@ -36,34 +39,36 @@ LWL-Backbone zwischen den Häusern, je 48+ Fasern (9/125 µm, OS2):
 
 Cat-Verbindungen (Kupfer) in die DV aller Stockwerke/Stockwerksteile (oder nach RZ1):
 * 2×2 Cat6<sub>A</sub> vom jeweiligen U1 aus (RZ0, RZ1, RZ2).
+* (!) Wo enden diese Leitungen? Besser wäre sie würden auch alle in RZ1 enden, aber wollen wir wirklich Kupfer zwischen Gebäuden? (Auch wenn die Wand an Wand stehen.)
 
 
 
-#### Rechenzentrum (RZ)
+#### Rechenzentrum
 
-Da Haus für's Digitale, wird auch ein RZ benötigt. Jedoch nur als Experimentierfeld und nicht als vollwertiges RZ für produktive Dienste mit Redundanz, vollem Datenschutz/-sicherheit (z.B. Erfüllung des BSI-Grundschutzkatalogs etc.).
+Da Haus für's Digitale, wird auch ein Rechenzentrum (RZ) benötigt. Jedoch nur als Experimentierfeld und nicht als vollwertiges RZ für produktive Dienste, d.h. mit Redundanz, vollem Datenschutz/-sicherheit (z.B. Erfüllung des BSI-Grundschutzkatalogs etc.).
 
 * 4× Serverschränke in RZ1.
 * Klimatisierung.
-  * alte zweite Klima zurückbauen?
+  * Alte zweite Klima zurückbauen oder besser für Redundanz wieder ertüchtigen?
 * Zugangskontrolle/-konzept?
-  * Grundsätzlich sind die Schränke in RZ1 abgeschlossen; viele Personen haben Zugang zum Raum insgesamt.
+  * Grundsätzlich sind die Schränke in RZ1 abgeschlossen, da viele Personen haben Zugang zum Raum insgesamt.
 
 
 
 ## Grundsätze und Annahmen
 
 * Nutzung durch **viele verschiedene Organisationen** möglich:
-  * 14 oder mehr Organisationen (augenscheinlich ersichtliche Aufteilung der drei Häuser und der (teilw. geteilten/teilbaren) Stockwerke).
+  * 14 oder mehr Organisationen <== augenscheinlich ersichtliche Aufteilung der drei Häuser und der (teilw. geteilten/teilbaren) Stockwerke.
   * mit jeweils unterschiedliche Anforderungen ans Netzwerk/Internetzugang (Art der Nutzung; Datenschutz und -sicherheit; ...)
     * → physikalisch getrennte Netze sind möglich (Bsp. separates Netz für Teile der Stadtverwaltung oder Caritas etc.).
-    * → Nutzung eigener ISPs ist möglich.
+    * → Nutzung jeweils eigener ISPs ist möglich.
 * Der Komplex „Weinhofhaus“ (Weinhof 6, 7/10 und 9) wird von Organisationen genutzt, die einen **„überdurchschnittlichen digitalen Bedarf“** haben. D.h. z.B., dass etwas „mehr Netzwerk“ vorgesehen werden muss als für aktuell moderne Büroarbeitspläze.
 * Der Ausbau in den jeweiligen Stockwerken der einzelnen Häuser könnte anlassbezogen erfolgen (zwischen Auszug und neuem Einzug und z.B. zusammen mit Erneuerung Böden und Deckenabhängungen).
 * Glasfaser (LWL):
   * single mode, 9/125 µm, OS2.
-  * LC ports female, PC (E2000 wäre besser, ist aber kostenintensiver).
-    * Ich wuerde dann auch E2000 vorsehen. Stadt/SWU macht das so. -stk
+  * LC ports female am Patchfeld, PC.
+    * E2000 wäre besser, ist aber kostenintensiver. --sl
+      * Ich wuerde dann auch E2000 vorsehen. Stadt/SWU macht das so. --stk
 * Kupfer (Cat)
   * Cat 6<sub>A</sub>/Class E<sub>A</sub>, RJ45; also ≥ 1 Gigabit “to the desk”.
 
@@ -71,17 +76,16 @@ Da Haus für's Digitale, wird auch ein RZ benötigt. Jedoch nur als Experimentie
 
 ## Stockwerksverteilung
 
-Strukturierte Verkabelung auf die Stockwerke/Stockwerksteile der drei Häuser.
-Auf jedem Stockwerk/in jedem Stockwerksteil der einzelnen Häuser (9, 7/10, 6) befindet sich ein „halbhoher“ Netzwerkschrank (FIXME HE).
+Strukturierte Verkabelung auf die Stockwerke/Stockwerksteile der drei Häuser. Auf jedem Stockwerk/in jedem Stockwerksteil der einzelnen Häuser (9, 7/10, 6) befindet sich ein „halbhoher“ Netzwerkschrank (~9 HE).
 
 Details zum Netzwerkschrank (DV):
 * Wandmontage, so dass darunter mit min. 15 cm Abstand noch ein zweiter „halbhoher“ DV für eine weitere Organisation montiert werden könnte.
-* Cat-Anschlüsse mit in Panel eingeklickten RJ45-Module. Genügend überstehende Leitungslänge vorsehen, so dass die Leitungen auch in den optionalen unteren DV verlegt und die Module dort eingeklickt werden können.
+* Cat-Verbindungen mit in Panel eingeklickten RJ45-Modulen. Genügend überstehende Leitungslänge vorsehen, so dass die Leitungen auch in den optionalen unteren DV verlegt und die Module dort eingeklickt werden können.
 * Schließung der DV: da die Räume mit den DV allgemein zugänglich sein werden, eine Schließung mit Halbzylindern oder eine digitale Schließung der Schränke vorsehen.
-* Dimensionen DV, ca. B×T×H: FIXME
+* Dimensionen DV, ca. B×T×H: 70+ × 55+ × 100 cm; 18 HE
 * Uplink:
-  * LWL aus RZ1: 6 Fasern = 3 Duplexanschlüsse pro DV (MPO?)
-  * (Cat aus RZ1: 2×2 Kupferleitungen.)
+  * LWL aus RZ1: 6 Fasern = 3 Duplexanschlüsse pro DV (MPO?).
+  * Cat aus RZ1 oder dem jew. UG: 2×2 Kupferleitungen.
 
 
 
@@ -104,9 +108,9 @@ Grundlage:
 *Tabelle: Anzahl Anschlüsse*
 
 NutzerInnen:
-* Gigabit an jedem Anschluss (Cat 6<sub>A</sub>).
+* Gigabit an jedem Anschluss (Class E<sub>A</sub>).
 * In den Räumen sind die Anschlüsse in Brüstungskanälen oder Bodentanks.
-* Je 2 der Anschlüsse ist in/an der Decken zu verbauen (WLAN, Beamer, Infomonitore, Gegensprechanlage, IoT-Funk, Lautsprecher etc.).
+* Je 2 der Anschlüsse sind in/an der Decken zu verbauen (WLAN, Beamer, Infomonitore, Gegensprechanlage, IoT-Funk, Lautsprecher etc.).
   * Strom sollte auch in der Decke vorgesehen werden: 2× Schuko.
 
 
@@ -114,9 +118,10 @@ NutzerInnen:
 #### ... sonstige Flächen
 
 * Flure, Empfang, WCs, Treppenhäuser, ...?
-* min. vom Boden erreichbare 2× Anschlüsse und 2× in der Decke.
-* Konzept/Anzahl der Anschlüsse kann gerne geliefert werden.
-
+* min. vom Boden erreichbare 2× Anschlüsse + 2× in der Decke.
+* Konzept und Auflistung der Anschlüsse kann gerne erstellt werden.
+* Erschließung der Türen (Außenhaut, sowie von Treppenhäusern o.ä. abgehend)? Z.B. für (zeit-)gesteuerte Summerfunktion zur öffnung von nicht-verschlossenen Türen.
+* Glasfaser als Reserve in die Dachstühle von #7/10 und #6?
 
 
 #### ... Außenwände
@@ -150,21 +155,22 @@ RZ1 = zentraler Raum zur Netzwerkverteilung (alle drei Häuser) und als kleines 
 
 ### Backbone
 
-* 48+ LWL-Faser von RZ2 nach RZ1 und von RZ1 nach RZ0.
+* 48+ Fasern LWL von RZ2 nach RZ1 und von RZ1 nach RZ0.
 
 
 
 ### Datenverteiler
 
-* 1× „voller“ DV: "Schaltstelle"
+* 1× „ganzer“ DV (ISPs ankommend und "Schaltstelle").
   * ankommend: ISPs, z.B. via DA (Telekom) oder 48 Fasern LWL aus #9 U1 (SWU/Telenet).
-  * abgehend: 16× 12 Fasern in die DVs in RZ1 der einzelnen Organisationen
-* 16× viertelshoher DV
+    *  100 DA Querverbindung zum Hausanschluss der Telekom?
+  * abgehend: 16× 12 Fasern in die DVs der einzelnen Organisationen in RZ1.
+* 16× viertelshoher DV (50 cm Höhe).
   * ankommend: 1× 12 Fasern aus DV "Schaltstelle"
   * abgehend, ins jeweilige Stockwerk/Stockwerksteil:
     * 1× 6 Fasern
-    * (2× 2 Cat)
-* 4× voller DV: für Server etc.
+    * evtl. 2× 2 Cat
+* 4× ganzer DV: für Server etc.
   * je 1× am Stück an eine Organisation.
 
 
@@ -185,7 +191,7 @@ Erste grobe Schätzung gerne nach Rücksprache, v.a. Rückkopplung wo's hingehen
 
 
 
-### Bsp.-Rechnungen
+### Beispiele und Kalkulationen
 
 Gerne nach Rücksprache mehr.
 
@@ -193,3 +199,21 @@ Gerne nach Rücksprache mehr.
 
 https://www.cbo-it.de/de/wissen/124-was-ist-mpo-mtp-multiple-fiber-push-on-pull-off-im-ueberblick.html
 
+
+#### Dimensionierung der Schränke?
+
+Bsp. aus dem Verschwörhaus:
+| Bezeichnung | H [cm] | B [cm] | T [cm] | HE = 4,445 cm |
+| --- | ---: | ---: | ---: | ---: |
+| kleiner bei Sabine | 50 | 60 | 53 | 9 |
+| großer im Salon | 210 | 80 | 85 | 43 |
+| Serverschrank in RZ1 | 200 | 80 | 100 | 42 |
+
+Tiefen von Geräten (Einbaukante am Raster bis Ende Anschlüsse):
+| Bezeichnung | T [cm
+| --- | ---: |
+| HP 2626 PWR (J8164A) | 53 |
+| Server/Storage | 83 |
+| KVM-Konsole | 57 |
+| ASR 9000 | 58 |
+| Catalyst 6500 E | 46 |
