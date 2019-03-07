@@ -203,14 +203,19 @@ https://www.cbo-it.de/de/wissen/124-was-ist-mpo-mtp-multiple-fiber-push-on-pull-
 #### Dimensionierung der Schränke?
 
 Bsp. aus dem Verschwörhaus:
-| Bezeichnung | H [cm] | B [cm] | T [cm] | HE = 4,445 cm |
+
+| Bezeichnung | H [cm] | B [cm] | T [cm] | HE |
 | --- | ---: | ---: | ---: | ---: |
 | kleiner bei Sabine | 50 | 60 | 53 | 9 |
 | großer im Salon | 210 | 80 | 85 | 43 |
 | Serverschrank in RZ1 | 200 | 80 | 100 | 42 |
 
+_(1 HE =  = 4,445 cm)_
+
+
 Tiefen von Geräten (Einbaukante am Raster bis Ende Anschlüsse):
-| Bezeichnung | T [cm
+
+| Bezeichnung | T [cm] |
 | --- | ---: |
 | HP 2626 PWR (J8164A) | 53 |
 | Server/Storage | 83 |
