@@ -35,7 +35,7 @@ LWL-Backbone zwischen den Häusern, je 48+ Fasern (9/125 µm, OS2):
 * von RZ1 nach "Server" in #6.
 
 Cat-Verbindungen (Kupfer) in die DV aller Stockwerke/Stockwerksteile (oder nach RZ1):
-* 2×2 Cat6<sub>A</sub> vom jeweiligen U1 aus (RZ1, RZ2, RZ3).
+* 2×2 Cat6<sub>A</sub> vom jeweiligen U1 aus (RZ0, RZ1, RZ2).
 
 
 
@@ -135,6 +135,8 @@ Vorschlag:
 
 RZ1 = zentraler Raum zur Netzwerkverteilung (alle drei Häuser) und als kleines Rechenzentrum.
 
+* RZ0: "Serverraum" in #6
+  * könnte bei Bedarf erschlossen werden.
 * RZ1: im bisherigen "Serverraum" in #7/10 → "voll" ausgebaut.
   * Kabelpritschen oberhalb der Serverschränke, als „Rechteck“.
   * Klimatisierung
@@ -143,14 +145,12 @@ RZ1 = zentraler Raum zur Netzwerkverteilung (alle drei Häuser) und als kleines 
   * SWU/Telenet Glasfaser kommt hier an.
   * könnte bei Bedarf erschlossen werden, Klima war hier z.B. mal vorhanden.
   * ...
-* RZ3: "Serverraum" in #6
-  * könnte bei Bedarf erschlossen werden.
 
 
 
 ### Backbone
 
-* 48+ LWL-Faser von RZ1 nach RZ2 und von RZ1 nach RZ3.
+* 48+ LWL-Faser von RZ2 nach RZ1 und von RZ1 nach RZ0.
 
 
 
