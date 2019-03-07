@@ -83,6 +83,7 @@ Geschätzte Anforderungen, wenn das Haus voll belegt ist:
 
 * Werden sich vorraussichtlich viele interessierte Organisationen wünschen.
 * Welche Teile sind barrierefrei zugänglich?
+  * Die Aufzugstür hat eine lichte Weite von 80 cm.
 
 
 
