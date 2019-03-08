@@ -11,8 +11,8 @@ Sonstige Fragen:
 * Gibt es „offizielle“ Raumnummern für (alle) Räume im Verschwörhaus oder gar kompletten Komplex?
 
 Anlagen:
-* *weinhofhaus-ueberblick.pdf* – Luftaufnahme des Häuserkomplexes und Verortung in der Stadtumgebung.
-* *weinhofhaus-schema.pdf* – Schematische Struktur des Häuserkomplexes und Darstellung der von versch. Organisationen bzw. für versch. Zwecke nutzbaren Flächen/Räumlichkeiten.
+* *[weinhofhaus-ueberblick.pdf](weinhofhaus-ueberblick.pdf)* – Luftaufnahme des Häuserkomplexes und Verortung in der Stadtumgebung.
+* *[weinhofhaus-schema.pdf](weinhofhaus-schema.pdf)* – Schematische Struktur des Häuserkomplexes und Darstellung der von versch. Organisationen bzw. für versch. Zwecke nutzbaren Flächen/Räumlichkeiten.
 
 
 
