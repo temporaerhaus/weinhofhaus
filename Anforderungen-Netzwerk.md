@@ -4,10 +4,10 @@
 Status: grobe Skizze.
 
 Anlagen:
-* *weinhofhaus-schema-netzwerk.pdf* – Skizze für eine Soll-Netzwerkinfrastruktur im Haus.
-* *raumbezeichnungen.csv* – Tabelle Raumnummern und Bezeichnungen.
-* *netzwerkanschluesse-bestand.csv* – Tabelle Bestand Netzwerkanschlüsse Verschwörhaus; gezählt wurden mögliche Gigabit-Anschlüsse (alle 4 Aderpaare + Schirm = 1 Anschluss).
-* *netzwerkanschluesse-soll.csv* – Tabelle benötigte Netzwerkanschlüsse; angegeben sind Cat6<sub>A</sub>-Anschlüsse (Gigabit).
+* *[weinhofhaus-schema-netzwerk.pdf](weinhofhaus-schema-netzwerk.pdf)* – Skizze für eine Soll-Netzwerkinfrastruktur im Haus.
+* *[raumbezeichnungen.csv](raumbezeichnungen.csv)* – Tabelle Raumnummern und Bezeichnungen.
+* *[netzwerkanschluesse-bestand.csv](netzwerkanschluesse-bestand.csv)* – Tabelle Bestand Netzwerkanschlüsse Verschwörhaus; gezählt wurden mögliche Gigabit-Anschlüsse (alle 4 Aderpaare + Schirm = 1 Anschluss).
+* *[netzwerkanschluesse-soll.csv](netzwerkanschluesse-soll.csv)* – Tabelle benötigte Netzwerkanschlüsse; angegeben sind Cat6<sub>A</sub>-Anschlüsse (Gigabit).
 
 
 
