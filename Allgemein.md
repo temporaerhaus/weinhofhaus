@@ -24,9 +24,10 @@ Anlagen:
 * digitale Schließung
 * Klingel-/Gegensprechanlage
 * Besucherinformation/-leitsystem
+* Sanierung Böden, Decken
 * Reinigung
 * Müllstation
-* Sanierung Böden, Decken
+* Lagerräume
 * Casino (als gemeinsam genutzter Sozialbereich)
 * Wohnungen
 * Residenz
@@ -63,6 +64,14 @@ Siehe *Weinhofhaus: Netzwerk*
 
 
 
+### Sanierung Böden und Decken
+
+* Werden sich vorraussichtlich viele interessierte Organisationen wünschen.
+* Welche Teile sind barrierefrei zugänglich?
+  * Die Aufzugstür hat eine lichte Weite von 80 cm.
+
+
+
 ### Reinigung
 
 * Jeder für sich allein oder alle sinnvoll gemeinsam?
@@ -79,11 +88,9 @@ Geschätzte Anforderungen, wenn das Haus voll belegt ist:
 
 
 
-### Sanierung Böden und Decken
+### Lagerräume
 
-* Werden sich vorraussichtlich viele interessierte Organisationen wünschen.
-* Welche Teile sind barrierefrei zugänglich?
-  * Die Aufzugstür hat eine lichte Weite von 80 cm.
+* Können Kellerräume auch an die Organisationen als Lager vergeben werden? Zumindest das Verschwörhaus hätte noch Bedarf.
 
 
 
