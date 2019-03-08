@@ -90,8 +90,7 @@ Geschätzte Anforderungen, wenn das Haus voll belegt ist:
 
 ### Lagerräume
 
-* Können Kellerräume auch an die Organisationen als Lager vergeben werden? Zumindest das Verschwörhaus hätte noch Bedarf.
-
+* Kellerräume für die Organisationen als Lager? Zumindest das Verschwörhaus hätte noch Bedarf.
 
 
 ### Casino
