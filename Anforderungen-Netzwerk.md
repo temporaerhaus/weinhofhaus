@@ -26,8 +26,9 @@ Anlagen:
 ### Netzwerk
 
 Von RZ1 aus auf jedes Stockwerk/jeden Stockwerksteil in jedem Haus:
-* 6 Fasern LWL (9/125 µm, OS2).
-* Ggf. als Reserver weitere 6 Fasern LWL parallel dazu verlegen (s.u.).
+* 12 Fasern LWL (9/125 µm, OS2).
+* Ggf. als Reserve weitere 6 Fasern LWL parallel dazu verlegen (s.u.).
+* Idealerweise MPO/MTP Trunkkabel um selbst auf Panel auflegen zu können.
 
 Vom Verteiler (DV, auch Netzwerkschrank) in jedem Stockwerk/Stockwerksteil:
 * Genügend Gigabit per Kupfer in die Räume verteilen (Cat6<sub>A</sub> bzw. Class E<sub>A</sub>).
@@ -69,9 +70,12 @@ Da Haus für's Digitale, wird auch ein Rechenzentrum (RZ) benötigt. Jedoch nur 
   * LC ports female am Patchfeld, PC.
     * E2000 wäre besser, ist aber kostenintensiver. --sl
       * Ich wuerde dann auch E2000 vorsehen. Stadt/SWU macht das so. --stk
+      * E2000 ist Overkill auf diesen Strecken. Lieber modulare LC/LC Koppler. Von Einfügedämpfung her recht ähnlich (FS.com < 0.2dB) aber billiger und flexibler --jaydi
 * Kupfer (Cat)
   * Cat 6<sub>A</sub>/Class E<sub>A</sub>, RJ45; also ≥ 1 Gigabit “to the desk”.
-
+* Modularität:
+  * Grundsätzlich sind Trunkkabel bevorzugt gegenüber zu spleißenden Kabeln. 
+  * Trunkkabel zwischen einzelnen Schränken, um Glasfaser-Patchfelder nachziehen zu können.
 
 
 ## Stockwerksverteilung
