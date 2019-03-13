@@ -1,1 +1,1 @@
-Schema, bearbeitbar: https://www.draw.io/#G1zdYluvVdkUULB7ey-Fir6YrikqC6RrI9
+Schema, bearbeitbar: https://drive.google.com/file/d/1zdYluvVdkUULB7ey-Fir6YrikqC6RrI9/view?usp=sharing
